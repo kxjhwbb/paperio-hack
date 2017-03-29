@@ -1,0 +1,148 @@
+div#outer_grid {
+    display: block;
+    position: fixed;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #03e7f4;
+    align-content: center;
+    vertical-align: middle;
+}
+
+div#the_game {
+    /* display: block !important; */
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    zoom: 0.3 !important;
+}
+
+div#grid {
+    border: 20px solid red;
+    left: 50% !important;
+    right: 0 !important;
+    top: 50% !important;
+    bottom: 0 !important;
+    position: relative !important;
+    transform: translate(-50%, -50%);
+}
+
+div#left {
+    display: none !important;
+}
+
+div#right {
+    display: none !important;
+}
+
+div#bottom {
+    display: none !important;
+}
+
+div#share {
+    display: none !important;
+}
+
+div#links {
+    display: none !important;
+}
+
+div#status {
+    zoom: 4 !important;
+}
+
+.button.play {
+    animation: inherit !important;
+}
+
+.gameover:after {
+    content: "HACKED BY XENIALDAN";
+    display: block;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background: black;
+    color: #56fd3a;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: x-large;
+    font-family: Consolas;
+    font-weight: bolder;
+}
+
+.gameover {
+}
+
+.button.play {
+    color: #56fd3a !important;
+    background-color: black !important;
+    border: none !important;
+    font-family: Consolas !important;
+    font-weight: bolder !important;
+}
+
+#paperio .score_p1 {
+    color: #56fd3a !important;
+    background-color: black !important;
+    border: none !important;
+    height: 100% !important;
+}
+
+div#scores {
+    zoom: 3 !important;
+}
+
+.grow {
+    animation: initial !important;
+}
+
+.logo {
+    visibility: hidden !important;
+}
+
+.logo:after {
+    content: "HACKED BY XENIALDAN";
+    display: block;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background: black;
+    color: #56fd3a;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: x-large;
+    font-family: Consolas;
+    font-weight: bolder;
+}
+
+input#paperio_p1 {
+    border: none !important;
+    color: #56fd3a !important;
+    background: black !important;
+}
+
+div#scores:first-child {
+    height: 30px !important;
+}
+
+#paperio #grid .crown:before {
+    top: -120px !important;
+    left: -86px !important;
+    right: 0 !important;
+    border: solid transparent;
+    border-width: 100px !important;
+    border-top: 100px solid rgba(255, 0, 0, 0.25) !important;
+    width: 0px !important;
+    content: close-quote !important;
+}
+
+.gameover {
+    background: none !important;
+}
